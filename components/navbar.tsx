@@ -19,7 +19,16 @@ import ThemeToggleButton from './theme-toggle-button'
 import { OmitCommonProps, ChakraProps, As } from '@chakra-ui/system'
 import { DetailedHTMLProps, HTMLAttributes } from 'react'
 
-const LinkItem = ({ href, path, _target, children, ...props }) => {
+
+interface LinkItemProps {
+  children: string;
+  href: string,
+  path: string,
+  _target?: string,
+
+}
+
+const LinkItem = ({ href, path, _target, children, ...props } : LinkItemProps) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
   return (

@@ -2,10 +2,11 @@ import Head from 'next/head'
 import NavBar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
+import { Router } from 'next/router'
 
 interface MainProps {
-  children: any;
-  router: any;
+  children: React.ReactNode;
+  router: Router;
 }
 
 const Main = ({ children, router }: MainProps ) => {

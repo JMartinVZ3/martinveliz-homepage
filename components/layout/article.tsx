@@ -9,8 +9,8 @@ const variants = {
 }
 
 interface LayoutProps {
-  children: any;
-  title: any;
+  children: React.ReactNode;
+  title: string;
 }
 
 const Layout = ({ children, title } : LayoutProps) => (
@@ -25,7 +25,7 @@ const Layout = ({ children, title } : LayoutProps) => (
     <>
       {title && (
         <Head>
-          <title>{title} - Takuya Matsuyama</title>
+          <title>{title} - Martin Veliz</title>
           <meta name="twitter:title" content={title} />
           <meta property="og:title" content={title} />
         </Head>

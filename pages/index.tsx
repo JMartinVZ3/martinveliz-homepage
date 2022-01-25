@@ -14,7 +14,6 @@ import {
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layout/article'
 import Section from '../components/section'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 
@@ -59,7 +58,7 @@ const Home: NextPage = () => {
           I love launching products, from planning to designing and solving real-life
           problems with code.
           This approach in life took me to launch my first startup called Volva in 2020.
-          I'm currently working on a new project called Adamo.
+          I&apos;m currently working on a new project called Adamo.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/portfolio">
