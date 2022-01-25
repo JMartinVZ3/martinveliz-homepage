@@ -26,7 +26,7 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
     <NextLink href={href} passHref>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
+        bg={active ? '#9AE6B4' : undefined}
         color={active ? '#202023' : inactiveColor}
         _target={_target}
         {...props}
@@ -72,10 +72,10 @@ const Navbar = (props: JSX.IntrinsicAttributes & OmitCommonProps<DetailedHTMLPro
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/portfolio" path={path}>
             Portfolio
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="https://medium.com/@jmartinvz" path={path}>
             Posts
           </LinkItem>
         </Stack>
@@ -95,12 +95,12 @@ const Navbar = (props: JSX.IntrinsicAttributes & OmitCommonProps<DetailedHTMLPro
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
+                <NextLink href="/portfolio" passHref>
                   <MenuItem as={Link}>Portfolio</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <Link href="https://medium.com/@jmartinvz" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
-                </NextLink>
+                </Link>
               </MenuList>
             </Menu>
           </Box>
