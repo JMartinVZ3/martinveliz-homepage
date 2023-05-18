@@ -15,17 +15,17 @@ import {
   import P from '../../components/paragraph'
   
   const Portfolio = () => (
-    <Layout title="Geostudios">
+    <Layout title="Sumerly">
       <Container>
         <Title>
-          Geostudios <Badge>2020</Badge>
+          Sumerly <Badge>2023</Badge>
         </Title>
         <Center my={6}>
-          <Image src="/images/portfolio/geostudios.png" alt="icon" />
+          <Image src="/images/portfolio/sumerly.png" alt="icon" />
         </Center>
 
         <P>
-          Website Made For An Architecture and Construction Company in Ecuador
+          Website Made For A Web Extension That Integrates a ChatGPT Window to the Browser.
         </P>
   
         <List ml={4} my={4}>
@@ -35,7 +35,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Svelte, Javascript</span>
+            <span>HTML, CSS, Javascript</span>
           </ListItem>
         </List>
   
@@ -45,9 +45,9 @@ import {
   
         <UnorderedList my={4}>
           <ListItem>
-            <Link href="https://geostudiosec.com/">
+            <Link href="https://sumerly-web.vercel.app/">
               <Badge mr={2}>Website</Badge>
-                https://geostudiosec.com/
+                https://sumerly-web.vercel.app/
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

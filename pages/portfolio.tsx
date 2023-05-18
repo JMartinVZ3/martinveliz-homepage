@@ -7,6 +7,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbMiguelAcosta from '../public/images/portfolio/miguelacosta.png'
 import thumbSeniaCedeno from '../public/images/portfolio/seniacedeno.png'
 import thumbGeostudios from '../public/images/portfolio/geostudios.png'
+import thumbSumerly from '../public/images/portfolio/sumerly.png'
 
 const Portfolio = () => (
   <Layout title="Portfolio">
@@ -41,6 +42,15 @@ const Portfolio = () => (
               thumbnail={thumbGeostudios}
             >
               Website Made For An Architecture & Construction Company in Portoviejo
+            </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+              id="sumerly"
+              title="Sumerly Web"
+              thumbnail={thumbSumerly}
+            >
+              Website Made For A Web Extension That Integrates a ChatGPT Window to the Browser.
             </WorkGridItem>
         </Section>
       </SimpleGrid>

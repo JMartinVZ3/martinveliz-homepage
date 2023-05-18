@@ -26,7 +26,7 @@ const Home: NextPage = () => {
           <Heading as="h2" variant="page-title">
             Martin Veliz
           </Heading>
-          <p>Software Developer, Cloud Practicer, Blockchain Enthusiast.</p>
+          <p>Mechatronics Engineering Student, Software Developer, Cloud Practitioner.</p>
         </Box>
         <Box
           flexShrink={0}
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
             maxWidth="120px"
             display="inline-block"
             borderRadius="10"
-            src="/images/martinveliz.jpg"
+            src="/images/martinveliz.png"
             alt="Profile image"
           />
         </Box>
@@ -52,13 +52,11 @@ const Home: NextPage = () => {
           Bio
         </Heading>
         <Paragraph>
-          Since little my curiosity and my desire to know more has taken me to learn 
+          Since little my curiosity and my desire to know more have taken me to learn 
           new abilities by myself, I developed a love for technology as I grew up and 
           I became a self-taught full-stack developer.
-          I love launching products, from planning to designing and solving real-life
+          I love creating a positive impact with the products I launch, from planning to designing and solving real-life
           problems with code.
-          This approach in life took me to launch my first startup called Volva in 2020.
-          I&apos;m currently working on a new project called Adamo.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/portfolio">
@@ -74,7 +72,7 @@ const Home: NextPage = () => {
           Work
         </Heading>
         <BioSection>
-          <BioYear>2019 to present</BioYear>
+          <BioYear>2019 - present</BioYear>
           Freelancing
         </BioSection>
         <BioSection>
@@ -87,7 +85,11 @@ const Home: NextPage = () => {
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Worked at Festi, a Mobile Application For Making Orders In Restaurants.
+          Worked at Festi, a mobile application for making orders in restaurants.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 - 2023</BioYear>
+          Worked at Go Out, a mobile application for making and finding nearby events.
         </BioSection>
       </Section>
 
@@ -96,7 +98,7 @@ const Home: NextPage = () => {
           Technologies I ♥
         </Heading>
         <Paragraph>
-          Dart, Python, Javascript, Go, Nodejs, React, Flutter, Wordpress.
+          Dart, Python, Javascript, Typescript, Svelte, Go, Nodejs, React, Flutter, Java, C#, Wordpress.
         </Paragraph>
       </Section>
 
